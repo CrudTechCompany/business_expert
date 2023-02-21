@@ -1,19 +1,14 @@
 import styles from "./App.module.css";
-import AboutBlock from "./components/AboutBlock/AboutBlock";
-import HeadBlock from "./components/HeadBlock/HeadBlock";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import ServiceBlock from "./components/ServiceBlock/ServiceBlock";
 import HomePage from "./containers/HomePage/HomePage";
 
 function App() {
   return (
     <div className={styles["app"]}>
       <Header />
-      <HomePage>
-        <HeadBlock />
-        <AboutBlock />
-        <ServiceBlock />
-      </HomePage>
+      <HomePage />
+      <Footer />
     </div>
   );
 }
