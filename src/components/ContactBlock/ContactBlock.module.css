@@ -1,3 +1,10 @@
+.observer-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .contact-block {
   margin-top: 150px;
   width: 100%;
@@ -49,6 +56,7 @@
   position: relative;
 }
 .input-block input {
+  z-index: 1;
   width: 100%;
   max-width: 570px;
   height: 36px;
@@ -74,6 +82,7 @@
   margin-top: 25px;
 }
 .input-block label {
+  z-index: 0;
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -126,6 +135,10 @@
   font-style: normal;
   line-height: 24.52px;
   color: rgba(255, 255, 255, 1);
+}
+.submit-button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
 }
 .block-image {
   width: 570px;

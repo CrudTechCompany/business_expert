@@ -1,5 +1,6 @@
 .video-block {
-  margin-top: 150px;
+  margin-top: 53px;
+  padding-top: 97px;
   width: 100%;
   max-width: 1440px;
   height: max-content;
@@ -69,6 +70,11 @@
   line-height: 24.52px;
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
+  transition: 300ms;
+}
+.title-block-desc button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
 }
 .video-content {
   margin-top: 60px;

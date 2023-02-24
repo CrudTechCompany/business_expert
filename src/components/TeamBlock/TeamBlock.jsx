@@ -35,7 +35,7 @@ const TeamBlock = () => {
     },
   ];
   return (
-    <div className={styles["team-block"]}>
+    <div className={styles["team-block"]} id="team-block">
       <h3>Наша команда</h3>
       <div className={styles["content"]}>
         {content.map((el) => (

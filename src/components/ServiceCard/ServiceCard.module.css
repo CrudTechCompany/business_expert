@@ -3,17 +3,13 @@
   height: 686px;
   border-radius: 20px;
   background-color: rgba(245, 245, 245, 1);
-}
-.service-card:first-of-type {
-  margin-left: 120px;
-}
-.service-card:last-of-type {
-  margin-right: 120px;
+  position: relative;
 }
 .content {
   margin: 40px;
 }
 .content img {
+  padding-top: 40px;
   width: 490px;
   height: 275px;
 }
@@ -52,4 +48,13 @@
   font-style: normal;
   line-height: 24.52px;
   color: rgba(255, 0, 0, 1);
+  transition: 300ms;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+}
+.content button:hover {
+  transition: 300ms;
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }

@@ -1,13 +1,10 @@
-.team-block {
+.faq-block {
   margin-top: 53px;
   padding-top: 97px;
   width: 100%;
   max-width: 1200px;
-  height: max-content;
-  display: flex;
-  flex-direction: column;
 }
-.team-block h3 {
+.faq-block h3 {
   margin: 0;
   font-size: 36px;
   font-weight: 600;
@@ -19,9 +16,5 @@
 .content {
   margin-top: 40px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 60px;
-  row-gap: 60px;
+  flex-direction: column;
 }

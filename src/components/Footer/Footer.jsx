@@ -9,23 +9,23 @@ const Footer = () => {
   const navContent = [
     {
       title: "О нас",
-      link: "#",
+      link: "about-block",
     },
     {
       title: "Услуги",
-      link: "#",
+      link: "service-block",
     },
     {
       title: "Команда",
-      link: "#",
+      link: "team-block",
     },
     {
       title: "Контакт",
-      link: "#",
+      link: "contact-block",
     },
     {
       title: "FAQ",
-      link: "#",
+      link: "faq-block",
     },
   ];
   return (
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           <div className={styles["nav-block"]}>
             {navContent.map((el) => (
-              <Link to={el.link} key={el.title}>
+              <Link to={el.link} key={el.title} smooth="true">
                 {el.title}
               </Link>
             ))}

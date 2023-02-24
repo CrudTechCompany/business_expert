@@ -6,16 +6,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background-color: rgba(255, 255, 255, 1);
 }
 .header-content {
-  margin: 40px 0;
+  margin: 20px 0;
   width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  
+  position: relative;
 }
 .menu-block {
   width: 419px;
@@ -32,6 +36,7 @@
   font-style: normal;
   line-height: 24.52px;
   color: rgba(5, 5, 5, 1);
+  cursor: pointer;
 }
 .select-block {
   display: flex;
@@ -41,24 +46,51 @@
   width: 384px;
 }
 .lang-block {
-  width: 74px;
+  width: 59px;
   height: 25px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.select-lang {
+.select-button {
   border: none;
-  outline: none;
+  padding: 0;
   background-color: transparent;
-  background: transparent;
   font-size: 18px;
   font-weight: 500;
   font-family: var(--font-family);
   font-style: normal;
   line-height: 24.52px;
   color: rgba(5, 5, 5, 1);
+  cursor: pointer;
+}
+.dropdown-list {
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 60px;
+  height: 160px;
+}
+.dropdown-list button {
+  margin-top: 12px;
+  width: 100%;
+  height: max-content;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  cursor: pointer;
 }
 .contact-button {
   width: 275px;
@@ -75,4 +107,10 @@
   font-style: normal;
   line-height: 25px;
   color: rgba(255, 0, 0, 1);
+  transition: 300ms;
+}
+.contact-button:hover {
+  transition: 300ms;
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }

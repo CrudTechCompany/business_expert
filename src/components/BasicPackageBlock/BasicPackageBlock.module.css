@@ -1,0 +1,73 @@
+.basic-block {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+.basic-block h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 49.03px;
+  color: rgba(5, 5, 5, 1);
+}
+.content-block {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-block img {
+  width: 570px;
+  height: 500px;
+}
+.content {
+  max-width: 570px;
+}
+.content h4 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 34.05px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5:not(:first-of-type) {
+  margin: 10px 0 0 0;
+}
+.content button {
+  margin-top: 30px;
+  border: none;
+  border-radius: 30px;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 1);
+  width: 275px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.content button:hover {
+  background-color: rgba(223, 7, 7, 1);
+  transition: 300ms;
+}

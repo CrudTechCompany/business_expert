@@ -1,5 +1,6 @@
 .about-block {
-  margin-top: 150px;
+  margin-top: 53px;
+  padding-top: 97px;
   width: 100vw;
   max-width: 1200px;
   height: max-content;
@@ -65,5 +66,12 @@
   font-family: var(--font-family);
   font-style: normal;
   line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.content-block button:hover {
+  transition: 300ms;
+  background: rgba(223, 7, 7, 1);
   color: rgba(255, 255, 255, 1);
 }

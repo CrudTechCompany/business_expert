@@ -3,7 +3,7 @@ import block_image from "../../assets/about_block_image.svg";
 
 const AboutBlock = () => {
   return (
-    <div className={styles["about-block"]}>
+    <div className={styles["about-block"]} id="about-block">
       <img src={block_image} alt="" />
       <div className={styles["content-block"]}>
         <h3>Подробнее о бизнес-инкубаторе</h3>
