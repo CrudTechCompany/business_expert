@@ -3,7 +3,6 @@
   height: 686px;
   border-radius: 20px;
   background-color: rgba(245, 245, 245, 1);
-  position: relative;
 }
 .content {
   margin: 40px;
@@ -14,14 +13,14 @@
   height: 275px;
 }
 .content h3 {
-  margin: 30px 0 0 0;
+  margin: 30px 0 0 0 !important;
   width: 100%;
-  font-size: 25px;
+  font-size: 25px !important;
   font-weight: 600;
   font-family: var(--font-family);
   font-style: normal;
-  line-height: 34.05px;
-  color: rgba(5, 5, 5, 1);
+  line-height: 34.05px !important;
+  color: rgba(5, 5, 5, 1) !important;
 }
 .content h4 {
   margin: 15px 0 0 0;

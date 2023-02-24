@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import HeadBlock from "./components/HeadBlock/HeadBlock";
 import Header from "./components/Header/Header";
 import BasicPackage from "./containers/BasicPackagePage/BasicPackagePage";
+import BusinessAndCompanyPage from "./containers/BusinessAndCompanyPage/BusinessAndCompanyPage";
 import HomePage from "./containers/HomePage/HomePage";
 
 const InitialPage = () => {
@@ -26,6 +27,10 @@ function App() {
         <Route path="/" element={<InitialPage />}>
           <Route index element={<HomePage />} />
           <Route path="/basic-package" element={<BasicPackage />} />
+          <Route
+            path="/business-and-company"
+            element={<BusinessAndCompanyPage />}
+          />
         </Route>
       </Routes>
     </div>

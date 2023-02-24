@@ -1,6 +1,7 @@
 import { content } from "./content.jsx";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+import  "./carousel.css";
 import "@splidejs/react-splide/css";
 
 const CarouselBlock = ({ carouselRef }) => {

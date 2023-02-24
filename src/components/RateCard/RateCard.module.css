@@ -1,0 +1,134 @@
+.rate-card {
+  width: 360px;
+  height: max-content;
+  min-height: 746px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 1);
+  position: relative;
+}
+.rate-card:nth-of-type(2) {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 0, 0, 1);
+}
+
+.rate-card:nth-of-type(2) button {
+  position: absolute;
+  bottom: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 0, 0, 1);
+  width: 280px;
+  height: 67px;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  transition: 300ms;
+}
+.rate-card:nth-of-type(2) button:hover {
+  background-color: transparent;
+  color: rgba(255, 0, 0, 1);
+  transition: 300ms;
+}
+.rate-card button {
+  position: absolute;
+  bottom: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: rgba(255, 0, 0, 1);
+  width: 280px;
+  height: 67px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 0, 0, 1);
+  transition: 300ms;
+}
+.rate-card button:hover {
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: 300ms;
+}
+.card-content {
+  margin-top: 40px;
+  width: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card-content h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 34.05px;
+  color: rgba(5, 5, 5, 1);
+}
+.card-content h4 {
+  margin: 12px 0 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 21.79px;
+  color: rgba(144, 144, 144, 1);
+  text-align: center;
+}
+.card-content h2 {
+  margin: 30px 0 0 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 49.03px;
+  color: rgba(255, 0, 0, 1);
+}
+.card-content h3:not(:first-of-type) {
+  margin: 30px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(5, 5, 5, 1);
+}
+.item {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: start;
+}
+.item:not(:first-of-type) {
+  margin-top: 12px;
+}
+.item-icon {
+  width: 13.33px;
+  height: 13.33px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 1);
+}
+.item h5 {
+  max-width: 254px;
+  margin: 0 0 0 11.33px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
