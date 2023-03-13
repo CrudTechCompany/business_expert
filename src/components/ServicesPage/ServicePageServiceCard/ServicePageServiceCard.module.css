@@ -1,0 +1,38 @@
+.service-card {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+}
+.service-card h3 {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 27.24px;
+  color: rgba(5, 5, 5, 1);
+}
+.service-card h4 {
+  margin: 12px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
+.service-card button {
+  margin-top: 30px;
+  width: 161px;
+  height: 57px;
+  border: 1px solid rgba(255, 0, 0, 1);
+  border-radius: 30px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 0, 0, 1);
+  background-color: transparent;
+}

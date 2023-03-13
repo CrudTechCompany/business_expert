@@ -1,0 +1,61 @@
+.review-block {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+}
+.review-block h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(144, 144, 144, 1);
+  text-transform: uppercase;
+}
+.review-block h3 {
+  margin: 12px 0 0 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 49.03px;
+  color: rgba(5, 5, 5, 1);
+}
+.card-block {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 40px;
+}
+.bottom-block {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-block button {
+  width: 217px;
+  height: 57px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.bottom-block button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
+}

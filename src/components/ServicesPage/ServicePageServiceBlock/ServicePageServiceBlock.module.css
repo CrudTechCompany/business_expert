@@ -1,0 +1,10 @@
+.service-block {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 140px;
+}

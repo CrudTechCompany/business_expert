@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  max-width: 1200px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+}
+.logo {
+  width: 184px;
+  height: 50px;
+}
+.select-block {
+  width: 384px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-button {
+  width: 275px;
+  height: 57px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.menu-block {
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-block a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.service-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.service-block-icon {
+  margin-left: 2px;
+  width: 16px;
+  height: 16px;
+}
+.lang-block {
+  width: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.lang-block span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+}
+.contact-button:hover {
+  transition: 300ms;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(5, 5, 5, 1);
+}

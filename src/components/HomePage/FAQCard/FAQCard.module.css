@@ -1,0 +1,42 @@
+.faq-card {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 1);
+}
+.title-block {
+  margin-top: 30px;
+  width: calc(100% - 80px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-block h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+}
+.desc-block {
+  margin-top: 15px;
+  width: calc(100% - 80px);
+  text-align: start;
+  margin-bottom: 30px;
+}
+.desc-block h4 {
+  margin: 0;
+  max-width: 800px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+  text-align: start;
+}

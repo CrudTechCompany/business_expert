@@ -1,0 +1,69 @@
+.head-block {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.mask-block {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.content-block {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  text-align: center;
+}
+.content-block h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 68.1px;
+  color: rgba(255, 255, 255, 1);
+}
+.content-block h1 span {
+  color: rgba(255, 0, 0, 1);
+}
+.content-block h3 {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 522px;
+}
+.content-block button {
+  margin-top: 30px;
+  width: 275px;
+  height: 57px;
+  border-radius: 30px;
+  border: none;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.content-block button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
+}

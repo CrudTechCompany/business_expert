@@ -1,0 +1,23 @@
+.team-card {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.team-card h5 {
+  margin: 15px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(5, 5, 5, 1);
+}
+.team-card h6 {
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
