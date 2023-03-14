@@ -1,0 +1,56 @@
+.firm-block {
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .content-block {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-block h3 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-style: normal;
+    line-height: 34.05px;
+    color: rgba(5, 5, 5, 1);
+  }
+  .content-block h4 {
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-style: normal;
+    line-height: 25px;
+    color: rgba(5, 5, 5, 1);
+  }
+  .content-block h4:not(:first-of-type) {
+    margin: 4px 0 0 0;
+  }
+  .content-block button {
+    margin-top: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 30px;
+    width: 275px;
+    height: 57px;
+    background-color: rgba(255, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    font-style: normal;
+    line-height: 24.52px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .content-block button:hover {
+    transition: 300ms;
+    background-color: rgba(223, 7, 7, 1);
+  }

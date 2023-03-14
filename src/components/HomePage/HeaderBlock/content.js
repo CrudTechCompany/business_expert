@@ -9,7 +9,7 @@ export const content = [
     key: "basic",
     image: basic,
     title: "Базовый пакет бизнес-инкубатор",
-    link: "",
+    link: "/basic-package",
   },
   {
     key: "registration",

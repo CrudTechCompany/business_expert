@@ -13,6 +13,7 @@ import {
   service_content,
   team_content,
   contact_content,
+  basic_content,
   privacy_content,
 } from "./components/HomePage/HeadBlock/content";
 import ServicesPage from "./containers/ServicesPage/ServicesPage";
@@ -24,6 +25,11 @@ import AddressBlock from "./components/ContactPage/AddressBlock/AddressBlock";
 import MapBlock from "./components/ContactPage/MapBlock/MapBlock";
 import PrivacyPage from "./containers/PrivacyPage/PrivacyPage";
 import PrivacyContent from "./components/PrivacyContent/PrivacyContent";
+import BasicPage from "./containers/BasicPage/BasicPage";
+import BasicDefinitionBlock from "./components/BasicPage/DefinitionBlock/BasicDefinitionBlock";
+import BasicInfoBlock from "./components/BasicPage/InfoBlock/BasicInfoBlock";
+import FreelanceBlock from "./components/BasicPage/FreelanceBlock/FreelanceBlock";
+import FirmBlock from "./components/BasicPage/FirmBlock/FirmBlock";
 
 function App() {
   return (
@@ -82,6 +88,19 @@ function App() {
               <PrivacyContent />
               <Footer />
             </PrivacyPage>
+          }
+        />
+        <Route
+          path="/basic-package"
+          element={
+            <BasicPage>
+              <HeadBlock content={basic_content} />
+              <BasicDefinitionBlock />
+              <BasicInfoBlock />
+              <FreelanceBlock />
+              <FirmBlock />
+              <Footer />
+            </BasicPage>
           }
         />
       </Routes>

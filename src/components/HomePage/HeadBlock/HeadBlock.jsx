@@ -25,7 +25,7 @@ const HeadBlock = ({ content }) => {
           Заказать консультацию
         </button>
       </div>
-      {/* <HeaderBlock /> */}
+      <HeaderBlock />
       <Header />
     </div>
   );

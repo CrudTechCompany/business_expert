@@ -2,6 +2,7 @@ import home_bg from "../../../assets/HeadBlock/home_bg.svg";
 import services_bg from "../../../assets/HeadBlock/services_bg.svg";
 import team_bg from "../../../assets/HeadBlock/team_bg.svg";
 import contact_bg from "../../../assets/HeadBlock/contact_bg.svg";
+import basic_bg from "../../../assets/HeadBlock/basic_bg.svg";
 import privacy_bg from "../../../assets/HeadBlock/privacy_bg.svg";
 
 export const home_content = {
@@ -29,6 +30,12 @@ export const contact_content = {
   bg: contact_bg,
   h1: "Связаться с нами",
   h1_top: "277px",
+  button_state: true,
+};
+export const basic_content = {
+  bg: basic_bg,
+  h1: "Бизнес-инкубатор в Польше это",
+  h1_span: "ведение бизнеса без лишних расходов и бюрократии",
   button_state: true,
 };
 export const privacy_content = {
