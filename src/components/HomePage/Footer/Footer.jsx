@@ -3,6 +3,7 @@ import facebook from "../../../assets/Footer/facebook.svg";
 import instagram from "../../../assets/Footer/instagram.svg";
 import youtube from "../../../assets/Footer/youtube.svg";
 import styles from "./Footer.module.css";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   const [data, setData] = useState({
@@ -110,11 +111,10 @@ const Footer = () => {
         </svg>
         <div className={styles["info-content"]}>
           <div className={styles["link-block"]}>
-            <a>Главная</a>
-            <a>Услуги</a>
-            <a>Команда</a>
-            <a>FAQ</a>
-            <a>Контакт</a>
+            <Link to="/">Главная</Link>
+            <Link to="/services">Услуги</Link>
+            <Link to="/team">Команда</Link>
+            <Link to="/contact">Контакт</Link>
             <div className={styles["social-block"]}>
               <a
                 href="https://www.facebook.com/biznesexpertpl/"
@@ -150,7 +150,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <span className={styles["rights-block"]}>© 2023 | All rights reserved | Polityka prywatności</span>
+        <span className={styles["rights-block"]}>© 2023 | All rights reserved | <Link to="/privacy-policy">Политика конфиденциальности</Link></span>
       </div>
     </footer>
   );

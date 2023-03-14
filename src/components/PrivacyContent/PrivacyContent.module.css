@@ -1,0 +1,28 @@
+.privacy-content {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+.privacy-content h3 {
+  margin: 0 0 20px 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 49.03px;
+  color: rgba(5, 5, 5, 1);
+}
+.privacy-content h3:not(:first-of-type) {
+  margin: 90px 0 20px 0;
+}
+.privacy-content p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}

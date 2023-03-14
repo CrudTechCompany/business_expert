@@ -1,7 +1,9 @@
 .service-card {
   width: 570px;
+  height: 556px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .service-card h3 {
   margin: 20px 0 0 0;
@@ -22,7 +24,8 @@
   color: rgba(5, 5, 5, 1);
 }
 .service-card button {
-  margin-top: 30px;
+  position: absolute;
+  bottom: 30px;
   width: 161px;
   height: 57px;
   border: 1px solid rgba(255, 0, 0, 1);

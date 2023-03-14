@@ -38,7 +38,7 @@
   transition: 300ms;
 }
 .menu-block {
-  width: 460px;
+  width: 425px;
   display: flex;
   flex-direction: row;
   align-items: center;

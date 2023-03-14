@@ -13,6 +13,7 @@ import {
   service_content,
   team_content,
   contact_content,
+  privacy_content,
 } from "./components/HomePage/HeadBlock/content";
 import ServicesPage from "./containers/ServicesPage/ServicesPage";
 import ServicePageServiceBlock from "./components/ServicesPage/ServicePageServiceBlock/ServicePageServiceBlock";
@@ -21,6 +22,8 @@ import TeamBlock from "./components/TeamPage/TeamBlock/TeamBlock";
 import ContactPage from "./containers/ContactPage/ContactPage";
 import AddressBlock from "./components/ContactPage/AddressBlock/AddressBlock";
 import MapBlock from "./components/ContactPage/MapBlock/MapBlock";
+import PrivacyPage from "./containers/PrivacyPage/PrivacyPage";
+import PrivacyContent from "./components/PrivacyContent/PrivacyContent";
 
 function App() {
   return (
@@ -69,6 +72,16 @@ function App() {
               <MapBlock />
               <Footer />
             </ContactPage>
+          }
+        />
+        <Route
+          path="/privacy-policy"
+          element={
+            <PrivacyPage>
+              <HeadBlock content={privacy_content} />
+              <PrivacyContent />
+              <Footer />
+            </PrivacyPage>
           }
         />
       </Routes>

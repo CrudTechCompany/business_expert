@@ -21,7 +21,9 @@ const HeadBlock = ({ content }) => {
           {content.h1_span && <span>{content.h1_span}</span>}
         </h1>
         {content.h3 && <h3>{content.h3}</h3>}
-        <button>Заказать консультацию</button>
+        <button style={{ display: content.button_state ? "block" : "none" }}>
+          Заказать консультацию
+        </button>
       </div>
       {/* <HeaderBlock /> */}
       <Header />

@@ -1,7 +1,6 @@
 import styles from "./AboutUsBlock.module.css";
 
 const AboutUs = () => {
-
   return (
     <div className={styles["about-block"]}>
       <div className={styles["title-block"]}>
@@ -29,12 +28,14 @@ const AboutUs = () => {
       </div>
       <div className={styles["video-block"]}>
         <iframe
+          className={styles["iframe"]}
           src="https://www.youtube.com/embed/9c5pYnvE8Fw"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
         <iframe
+        className={styles["iframe"]}
           src="https://www.youtube.com/embed/AFwEPIc-yws"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

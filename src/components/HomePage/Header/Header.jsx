@@ -21,7 +21,6 @@ const Header = () => {
           </div>
         </Link>
         <Link to="/team">Команда</Link>
-        <a>FAQ</a>
         <Link to="/contact">Контакт</Link>
       </div>
       <div className={styles["select-block"]}>
