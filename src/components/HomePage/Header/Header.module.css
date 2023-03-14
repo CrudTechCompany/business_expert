@@ -76,6 +76,9 @@
   border: none;
   background-color: transparent;
 }
+.select-lang-block{
+  position: relative;
+}
 .lang-block span {
   font-size: 18px;
   font-weight: 500;
@@ -83,6 +86,32 @@
   font-style: normal;
   line-height: 24.52px;
   color: rgba(255, 255, 255, 1);
+}
+.lang-block-select-list {
+  position: absolute;
+  top: 40px;
+  width: 59px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(35px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.select-list-item {
+  margin-top: 12px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  cursor: pointer;
+}
+.select-list-item:last-of-type{
+  margin-bottom: 12px;
 }
 .contact-button:hover {
   transition: 300ms;
