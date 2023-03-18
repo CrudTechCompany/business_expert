@@ -15,6 +15,8 @@ import {
   contact_content,
   basic_content,
   privacy_content,
+  firm_content,
+  smm_content,
 } from "./components/HomePage/HeadBlock/content";
 import ServicesPage from "./containers/ServicesPage/ServicesPage";
 import ServicePageServiceBlock from "./components/ServicesPage/ServicePageServiceBlock/ServicePageServiceBlock";
@@ -30,6 +32,17 @@ import BasicDefinitionBlock from "./components/BasicPage/DefinitionBlock/BasicDe
 import BasicInfoBlock from "./components/BasicPage/InfoBlock/BasicInfoBlock";
 import FreelanceBlock from "./components/BasicPage/FreelanceBlock/FreelanceBlock";
 import FirmBlock from "./components/BasicPage/FirmBlock/FirmBlock";
+import FirmPage from "./containers/FirmPage/FirmPage";
+import FirmDefinitionBlock from "./components/FirmPage/FirmDefinitionBlock/FirmDefinitionBlock";
+import OptionsBlock from "./components/FirmPage/OptionsBlock/OptionsBlock";
+import FirmFreelanceBlock from "./components/FirmPage/FirmFreelanceBlock/FirmFreelanceBlock";
+import FirmBusinessBlock from "./components/FirmPage/FirmBusinessBlock/FirmBusinessBlock";
+import SMMPage from "./containers/SMMPage/SMMPage";
+import SMMDefinitionBlock from "./components/SMMPage/SMMDefinitionBlock/SMMDefinitionBlock";
+import SMMPromotionBlock from "./components/SMMPage/SMMPromotionBlock/SMMPromotionBlock";
+import SMMBlock from "./components/SMMPage/SMMBlock/SMMBlock";
+import AdwordsBlock from "./components/SMMPage/AdwordsBlock/AdwordsBlock";
+import SEOBlock from "./components/SMMPage/SEOBlock/SEOBlock";
 
 function App() {
   return (
@@ -101,6 +114,33 @@ function App() {
               <FirmBlock />
               <Footer />
             </BasicPage>
+          }
+        />
+        <Route
+          path="/accounting-service"
+          element={
+            <FirmPage>
+              <HeadBlock content={firm_content} />
+              <FirmDefinitionBlock />
+              <OptionsBlock />
+              <FirmFreelanceBlock />
+              <FirmBusinessBlock />
+              <Footer />
+            </FirmPage>
+          }
+        />
+        <Route
+          path="/smm"
+          element={
+            <SMMPage>
+              <HeadBlock content={smm_content} />
+              <SMMDefinitionBlock />
+              <SMMPromotionBlock />
+              <SMMBlock />
+              <AdwordsBlock/>
+              <SEOBlock/>
+              <Footer />
+            </SMMPage>
           }
         />
       </Routes>

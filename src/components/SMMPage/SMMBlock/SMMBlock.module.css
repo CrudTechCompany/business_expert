@@ -1,0 +1,61 @@
+.smm-block {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.smm-block img {
+  margin: 40px 40px 40px 0;
+}
+.content {
+  margin: 40px 0 40px 40px;
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+}
+.content h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 34.05px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5:not(:first-of-type) {
+  margin: 4px 0 0 0;
+}
+.content button {
+  margin-top: 30px;
+  width: 275px;
+  height: 57px;
+  border: none;
+  border-radius: 30px;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  transition: 300ms;
+  cursor: pointer;
+}
+.content button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
+}

@@ -4,6 +4,8 @@ import team_bg from "../../../assets/HeadBlock/team_bg.svg";
 import contact_bg from "../../../assets/HeadBlock/contact_bg.svg";
 import basic_bg from "../../../assets/HeadBlock/basic_bg.svg";
 import privacy_bg from "../../../assets/HeadBlock/privacy_bg.svg";
+import firm_bg from "../../../assets/HeadBlock/firm_bg.svg";
+import smm_bg from "../../../assets/HeadBlock/smm_bg.svg";
 
 export const home_content = {
   bg: home_bg,
@@ -38,9 +40,23 @@ export const basic_content = {
   h1_span: "ведение бизнеса без лишних расходов и бюрократии",
   button_state: true,
 };
+export const firm_content = {
+  bg: firm_bg,
+  h1: "Бухгалтерское обслуживание в Польше это",
+  h1_span: "концентрация на бизнесе без рутины",
+  button_state: true,
+};
+export const smm_content = {
+  bg: smm_bg,
+  h1: "SMM. Adwords. SEO это",
+  h1_span: "адаптация продукта или услуг к европейскому рынку",
+  button_state: true,
+};
 export const privacy_content = {
   bg: privacy_bg,
   h1: "Политика конфиденциальности",
   h3: "Настоящая Политика конфиденциальности устанавливает правила хранения, обработки и доступа к информации на сайте и устройствах Пользователя, используемых для оказания услуг, предоставляемых в электронной форме.",
   button_state: false,
 };
+
+

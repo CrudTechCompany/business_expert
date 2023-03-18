@@ -21,7 +21,7 @@ export const content = [
     key: "firm",
     image: firm,
     title: "Бухгалтерское обслуживание для фирм и предпринимателей",
-    link: "",
+    link: "/accounting-service",
   },
   {
     key: "legalization",
@@ -33,6 +33,6 @@ export const content = [
     key: "smm",
     image: smm,
     title: "SMM. ADWORDS. SEO",
-    link: "",
+    link: "/smm",
   },
 ];

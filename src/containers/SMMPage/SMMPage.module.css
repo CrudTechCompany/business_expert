@@ -1,0 +1,8 @@
+.smm-page {
+  width: 100vw;
+  max-width: 1440px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

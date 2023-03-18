@@ -1,0 +1,75 @@
+.options-block {
+  margin-top: 150px;
+  width: 100%;
+  max-width: 1200px;
+}
+.options-block h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 49.03px;
+  color: rgba(5, 5, 5, 1);
+}
+.content-block {
+  padding: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 20px;
+}
+.content {
+  max-width: 530px;
+}
+.content h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(144, 144, 144, 1);
+  text-transform: uppercase;
+}
+.content h3 {
+  margin: 10px 0 0 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 34.05px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
+.content button {
+  margin-top: 30px;
+  width: 275px;
+  height: 57px;
+  border-radius: 30px;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  cursor: pointer;
+  transition: 300px;
+}
+.content button:hover {
+  transition: 300px;
+  background-color: rgba(223, 7, 7, 1);
+}
