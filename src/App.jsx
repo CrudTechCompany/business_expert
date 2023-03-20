@@ -17,6 +17,7 @@ import {
   privacy_content,
   firm_content,
   smm_content,
+  legalization_content,
 } from "./components/HomePage/HeadBlock/content";
 import ServicesPage from "./containers/ServicesPage/ServicesPage";
 import ServicePageServiceBlock from "./components/ServicesPage/ServicePageServiceBlock/ServicePageServiceBlock";
@@ -43,6 +44,11 @@ import SMMPromotionBlock from "./components/SMMPage/SMMPromotionBlock/SMMPromoti
 import SMMBlock from "./components/SMMPage/SMMBlock/SMMBlock";
 import AdwordsBlock from "./components/SMMPage/AdwordsBlock/AdwordsBlock";
 import SEOBlock from "./components/SMMPage/SEOBlock/SEOBlock";
+import LegalizationPage from "./containers/LegalizationPage/LegalizationPage";
+import LegalizationDefinitionBlock from "./components/LegalizationPage/LegalizationDefinitionBlock/LegalizationDefinitionBlock";
+import LegalizationServiceBlock from "./components/LegalizationPage/LegalizationServiceBlock/LegalizationServiceBlock";
+import LegalizationResidentBlock from "./components/LegalizationPage/LegalizationResidentBlock/LegalizationResidentBlock";
+import LegalizationRegistrationBlock from "./components/LegalizationPage/LegalizationRegistrationBlock/LegalizationRegistrationBlock";
 
 function App() {
   return (
@@ -137,10 +143,23 @@ function App() {
               <SMMDefinitionBlock />
               <SMMPromotionBlock />
               <SMMBlock />
-              <AdwordsBlock/>
-              <SEOBlock/>
+              <AdwordsBlock />
+              <SEOBlock />
               <Footer />
             </SMMPage>
+          }
+        />
+        <Route
+          path="/legalization"
+          element={
+            <LegalizationPage>
+              <HeadBlock content={legalization_content} />
+              <LegalizationDefinitionBlock />
+              <LegalizationServiceBlock />
+              <LegalizationResidentBlock />
+              <LegalizationRegistrationBlock />
+              <Footer />
+            </LegalizationPage>
           }
         />
       </Routes>

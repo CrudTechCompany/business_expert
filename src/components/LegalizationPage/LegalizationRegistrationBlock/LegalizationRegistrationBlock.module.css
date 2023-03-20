@@ -1,0 +1,61 @@
+.registration-block {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 20px;
+}
+.content-block {
+  margin: 40px 0;
+  width: calc(100% - 80px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.content {
+  max-width: 530px;
+}
+.content h4 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 34.05px;
+  color: rgba(5, 5, 5, 1);
+}
+.content h5 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 1);
+}
+.content button {
+  margin: 30px 0 0 0;
+  width: 480px;
+  height: 57px;
+  padding: 0;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 24.52px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.content button:hover {
+  transition: 300ms;
+  background-color: rgba(223, 7, 7, 1);
+}

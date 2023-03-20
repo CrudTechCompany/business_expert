@@ -27,7 +27,7 @@ export const content = [
     key: "legalization",
     image: legalization,
     title: "Легализация пребывания в Польше",
-    link: "",
+    link: "/legalization",
   },
   {
     key: "smm",
